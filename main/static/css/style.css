@@ -1,0 +1,121 @@
+*{
+margin: 0px;
+padding: 0px;
+.container{
+    width: 1660px;
+    margin: 40px;
+}
+.header{
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+.links_blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+.link_block{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.link_block_2{
+    display: flex;
+    gap: 40px;
+}
+
+.ul_link{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: black;
+    fot-size: 20px;
+}
+.link_a{
+    font-size: 20px;
+    width: 75px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    width: 25px;
+    height: 25px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid #000;
+    opacity: 80%;
+}
+.search_icon{
+    width:25px;
+    height: 25px;
+}
+.search input{
+    font-size: 20px;
+    border: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Расстояние между картинками */
+}
+
+.grid-item img {
+    width: 300px; /* Занимает всю ширину блока */
+    height: 300px; /* Соотношение сторон */
+}
+.text_blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop_blocks{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.text_block h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.text_block p{
+    font-size: 20px;
+}
+.button_shop{
+    background: black;
+    color: white;
+    display: flex;
+    align-items:center;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.delivery{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.delivery img{
+    width: 25px;
+    height: 25px;
+}
+.time{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.time img{
+    width: 25px;
+    height: 25px;
+}

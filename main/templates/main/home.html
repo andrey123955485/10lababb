@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aire</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+    <nav class="nav_link">
+        <div class="links_blocks">
+                    <div class="link_block">
+            <div class="logo">AIRE</div>
+
+        <div class="link">
+            <ul class="ul_link">
+                <li><a class="link_a">Category</a></li>
+                <li><a class="link_a">Promo</a></li>
+                <li><a class="link_a">Interior Design</a></li>
+                <li><a class="link_a">Product Recommendation</a></li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="link_block_2">
+            <div class="search">
+                <img class="search_icon" src="{% static 'img/search.png' %}">
+                <input placeholder="Product Search">
+            </div>
+
+            <div class="icon">
+                <img src="{% static 'img/basket.png' %}">
+                <img src="{% static 'img/like.png' %}">
+                <img src="{% static 'img/user.png' %}">
+            </div>
+        </div>
+        </div>
+    </nav>
+</header>
+    <section>
+        <div class="text_blocks">
+            <div class="text_block">
+                <h1>Discover elegant & <br> affordable furniture <br> for every room</h1>
+                <p>Transform your furniture with sophisticated and stylish <br> pieces, and create a serene and inviting home.</p>
+                <div class="shop_blocks">
+                    <button class="button_shop">Shop now</button>
+                    <div class="delivery">
+                        <img src="{% static 'img/car.png' %}">
+                        <p>free delivery</p>
+                    </div>
+                    <div class="time">
+                        <img src="{% static 'img/time.png' %}">
+                        <p>Always on-time</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text_block_2">
+                <div class="grid-container">
+                    <div class="grid-item"><img src="{% static 'img/1.jpg' %}" alt="Image 1"></div>
+                    <div class="grid-item"><img src="{% static 'img/2.jpg' %}" alt="Image 2"></div>
+                    <div class="grid-item"><img src="{% static 'img/3.jpg' %}" alt="Image 3"></div>
+                    <div class="grid-item"><img src="{% static 'img/1.jpg' %}" alt="Image 4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
